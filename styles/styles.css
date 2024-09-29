@@ -1,0 +1,31 @@
+/* All text is centered on this page
+*/
+
+body {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif
+  }
+
+  nav {
+    background-color: rgb;
+    padding: 10px;
+  }
+
+  a {
+    color: white;
+    margin: 40px;
+  }
+  h1 {
+    color: plum;
+  }
+  img {
+    width: 800px;
+    border: 4px solid steelblue;
+  }
+  p {
+    padding: 10px;
+  }
+  footer {
+    background-color: steelblue;
+    color: lavender;
+  }
