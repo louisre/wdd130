@@ -1,0 +1,22 @@
+.circles {
+    margin: 0 auto;
+    width: 100%;
+}
+
+body {
+    background-color: gray;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin: 100px auto;
+    padding: 0 20px;
+}
+
+.desk, .graphic, .person {
+    width: 400px;
+    border-radius: 300px;
+    border: 20px solid rgba(0, 0, 0, 0.414);
+}

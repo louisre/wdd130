@@ -1,0 +1,22 @@
+.circles {
+    margin: 0 auto;
+    width: 100%;
+}
+
+body {
+    background-color: gray;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* Adjust spacing between the images */
+    margin: 100px auto; /* To center the container itself */
+    padding: 0 20px; /* Optional padding to control horizontal spacing */
+}
+
+.desk, .graphic, .person {
+    width: 400px;
+    border-radius: 300px;
+    border: 20px solid rgba(0, 0, 0, 0.414);
+}
