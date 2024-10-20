@@ -16,7 +16,7 @@ body {
 /* Header Section */
 header {
     background-color: silver;
-    height: 175px;
+    height: 180px;
 }
 
 .logo {
@@ -41,7 +41,7 @@ nav a:hover {
 
 /* Hero Section */
 #hero {
-    padding: 50px;
+    padding-bottom: 40px;
     border: 1px solid grey;
 }
 
@@ -143,11 +143,13 @@ footer {
     color: #778DA9;
     padding: 25px 50px;
     margin-top: 200px;
+    font-size: 20px;
 }
 
 footer a {
     text-decoration: none;
     color: #778DA9;
+    font-size: 25px;
 }
 
 footer p {
