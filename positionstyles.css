@@ -4,8 +4,8 @@
   /* This is the parent of the activity 1 boxes. */
   display: grid;
   justify-items: center;
-  grid-template-columns: 400px 400px;
   grid-template-rows: 200px 300px 300px 200px;
+  grid-template-columns: 400px 400px;
   gap: 20px;
 }
 .content1 div{
@@ -37,56 +37,50 @@
 /* Activity 2 styles */ 
 .content2 {
   /* This positions the elements relative to each other for overlapping */
-  position: relative;
-  width: 150px; /* Adjust width as needed */
+  display: grid;
+  grid-template-rows: repeat(5, 50px);
+  grid-template-columns: repeat(5, 50px);
+}
+.red2, .green2, .yellow2, .blue2{
+  width: 100px; 
+  height: 100px;
 }
 .red2 {
-  width: 100px; 
-  height: 100px; 
   background-color: red;
-  position: absolute;
-  top: 0;
-  left: 0;
+  grid-row: 1/2;
+  grid-column: 1/2;
 } 
-.green2 { 
-  width: 100px; 
-  height: 100px; 
-  background-color: green; 
-  position: absolute;
-  top: 20px;
-  left: 20px;
+.green2 {  
+  background-color: green;
+  grid-row: 2/3;
+  grid-column: 2/3;
 } 
-.yellow2 {
-  width: 100px; 
-  height: 100px; 
-  background-color: gold; 
-  position: absolute;
-  top: 40px;
-  left: 40px;
+.yellow2 { 
+  background-color: gold;
+  grid-row: 3/4;
+  grid-column: 3/4;
 } 
 .blue2 {
-  width: 100px; 
-  height: 100px; 
   background-color: blue; 
-  position: absolute;
-  top: 60px;
-  left: 60px;
+  grid-row: 4/5;
+  grid-column: 4/5;
 }
 /* Activity 3 styles */ 
 .content3 {
   /* This is the parent of the activity 3 boxes. */
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 250px 100px;
+  grid-template-columns: 400px 400px;
+  grid-column-gap: 100px;
 }
-.red3 {
-  width: 100%; 
-  height: 100px; 
-  background-color: red;
+.red3, .blue3{
   grid-column: 1/3;
+}
+.red3 { 
+  background-color: red;
 } 
 .green3, .yellow3{
-  width: 500px; 
-  height: 500px;
+  grid-row: 2;
 }
 .green3 {
   background-color: green;
@@ -96,67 +90,60 @@
   background-color: gold;
   grid-column: 2;
 } 
-.blue3 {
-  width: 100%;
-  height: 100px; 
+.blue3 { 
   background-color: blue;
-  grid-column: 1/3;
+  grid-row: 3;
 } 
 /* Activity 4 styles */ 
 .content4 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
   height: 100vh;
 }
 .red4 {
-  grid-row: 1 / span 3;
-  width: 100%;
-  height: 100%;
   background-color: red;
+  grid-row: 1 / span 3;
 }
 .green4, .yellow4, .blue4 {
-  width: 100%;
-  height: 100%;
+  grid-column: 2;
 }
 .green4 {
-  grid-column: 2;
-  grid-row: 1;
   background-color: green;
+  grid-row: 1;
 }
 .yellow4 {
-  grid-column: 2;
-  grid-row: 2;
   background-color: gold;
+  grid-row: 2;
 }
 .blue4 {
-  grid-column: 2;
-  grid-row: 3;
   background-color: blue;
+  grid-row: 3;
 }
 /* Activity 5 styles */ 
 .content5 {
   /* This is the parent of the activity 5 boxes. */
-  height: 400px;
+  font-size: 24px;
 }
 .red5 { 
-  width: 100%; 
-  height: 100px; 
   background-color: red;
+  height: 200px;
+  width: 100%;
 } 
-.green5 { 
-  width: 100px; 
-  height: 100px; 
+.green5 {
   background-color: green;
+  height: 350px;
+  width: 350px;
+  float: left;
+  z-index: 1;
 } 
 .yellow5 {
-  width: 100px; 
-  height: 100px; 
-  background-color: gold; 
+  background-color: gold;
+  height: 500px;
+  width: 100%;
 } 
 .blue5 {
-  width: 100%; 
-  height: 100px; 
-  background-color: blue; 
+  background-color: blue;
+  height: 200px;
+  width: 100%;
 } 
 /* Activity 6 styles */ 
 .content6 {
@@ -164,35 +151,27 @@
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(6, 1fr);
-  width: 1490px;
-  height: 1490px;
+  height: 100vh;
+  width: 60vw;
 }
 .red6 {
-  width: 100%; 
-  height: 100%; 
   background-color: red;
   grid-column: 1/5;
   grid-row: 1/3;
 } 
 .green6 {
-  width: 100%; 
-  height: 100%; 
   background-color: green;
   grid-column: 1/3;
   grid-row: 5/7;
   z-index: 1;
 } 
 .yellow6 {
-  width: 100%; 
-  height: 100%; 
   background-color: gold;
   grid-column: 5/7;
   grid-row: 3/7;
   z-index: 1;
 } 
 .blue6 {
-  width: 100%; 
-  height: 100%; 
   background-color: blue;
   grid-column: 2/6;
   grid-row: 2/6;
