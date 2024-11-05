@@ -19,6 +19,7 @@ header {
     height: 180px;
     display: grid;
     grid-template-columns: 150px auto;
+    opacity: 0.6;
 }
 
 .logo {
@@ -40,7 +41,7 @@ nav {
 }
 
 nav a {
-    background-color: rgba(192, 192, 192, 0.8); /* Transparent background */
+    background-color: silver;
     color: white;
     text-decoration: none;
     padding: 30px;
@@ -53,6 +54,7 @@ nav a:hover {
 }
 
 /* ================== Hero Section ================== */
+
 #hero {
     padding-bottom: 40px;
     display: grid;
@@ -116,8 +118,15 @@ main section {
 }
 
 /* ================== Card Styling ================== */
+
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat()
+}
+
 .card-img {
-    width: 100%;
+    width: 200px;
     border: 10px solid #778DA9;
     transition: transform 0.5s;
     box-shadow: 5px 5px 10px #6f7364;
@@ -126,6 +135,18 @@ main section {
 .card-img:hover {
     opacity: 0.6;
     transform: scale(1.1);
+}
+
+.rivers-card{
+    grid-column: 2/4;
+}
+
+.camping-card{
+    grid-column: 5/7;
+}
+
+.rapids-card{
+    grid-column: 8/9;
 }
 
 .icon {
