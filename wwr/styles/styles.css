@@ -19,7 +19,6 @@ header {
     height: 210px;
     display: grid;
     grid-template-columns: 150px auto;
-    opacity: 0.6;
 }
 
 .logo {
@@ -186,8 +185,10 @@ h2 {
 /* ================== Background and Mountains ================== */
 #background {
     height: 800px;
+    width: 100%;
     background-color: #415A77;
     grid-row: 4/9;
+    grid-column: 1/11
 }
 
 .mountains {
