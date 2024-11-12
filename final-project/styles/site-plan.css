@@ -5,25 +5,25 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #C4FFF9   ;
-  --secondary-color: #9CEAEF ;
-  --accent1-color: #68D8D6;
-  --accent2-color: #3DCCC7;
+  --primary-color: #2b6777;
+  --secondary-color: #c8d8e4;
+  --accent1-color: #f2f2f2;
+  --accent2-color: #52ab98;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Roboto";
   --paragraph-font: "Roboto", Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #C4FFF9;  /* headlines on a white background */ 
-  --headline-color-on-color: #3DCCC7; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #3DCCC7; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #3DCCC7; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #C4FFF9  ;
-  --nav-link-color: #C4FFF9;
-  --nav-background-color: #9CEAEF;
-  --nav-hover-link-color: #3DCCC7;
-  --nav-hover-background-color: #C4FFF9;
+  --headline-color-on-white: #2b6777;;  /* headlines on a white background */ 
+  --headline-color-on-color: #52ab98; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #52ab98; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #52ab98; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #2b6777;  ;
+  --nav-link-color: #2b6777;;
+  --nav-background-color: #c8d8e4;
+  --nav-hover-link-color: #52ab98;
+  --nav-hover-background-color: #2b6777;;
 }
 
 
