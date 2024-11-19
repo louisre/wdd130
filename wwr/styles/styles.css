@@ -311,9 +311,27 @@ body {
   }
 
   /* RIVERS SUBPAGE HTML */
-  .rivers-grid{
+.rivers-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 1rem;
+}
 
-  }
+#hero-area{
+    grid-column: 1/-1;
+    grid-row: 1/2;
+}
+
+#salmon, #gray, #grand{
+    grid-column: 1/2;
+}
+
+#salmon-img, #gray-img, #grand-img{
+    grid-column: 2/3;
+    width: 100%;
+    object-fit: cover;
+}
 
 /* ================== Responsive Styles ================== */
 @media screen and (max-width: 900px) {
