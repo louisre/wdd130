@@ -311,7 +311,9 @@ body {
   }
 
   /* RIVERS SUBPAGE HTML */
-  
+  .rivers-grid{
+
+  }
 
 /* ================== Responsive Styles ================== */
 @media screen and (max-width: 900px) {
