@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 12 Component Activity</title>
+    <link rel="stylesheet" href="styles/week12.css">
+</head>
+<body>
+    <h1>Miami Dolphins</h1>
+    <button class="accordion">History of the Miami Dolphins</button>
+    <div class="panel">
+        <p>The Miami Dolphins, established in 1966, are a professional football team based in Miami, Florida. They are a part of the National Football League's (NFL) AFC East Division. The team quickly rose to prominence, becoming a powerhouse in the 1970s and earning a lasting legacy in professional football.
+
+        </p>
+    </div>
+
+    <button class="accordion">Notable Achievements</button>
+    <div class="panel">
+        <p>The Dolphins hold the distinction of being the only NFL team to achieve a perfect season, going undefeated in 1972 and winning Super Bowl VII. They followed this with another Super Bowl victory in 1973. Legendary figures such as Coach Don Shula, quarterback Dan Marino, and running back Larry Csonka have left an indelible mark on the team's history.</p>
+    </div>
+
+    <button class="accordion">Hard Rock Stadium and Fan Community</button>
+    <div class="panel">
+        <p>The Dolphins play their home games at Hard Rock Stadium, located in Miami Gardens, Florida. The stadium is renowned for its modern design and energetic game-day atmosphere. The team's fan base, known as the "Dolfans," is one of the most passionate in the league, bringing excitement and loyalty to every game.</p>
+    </div>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+</script>
+</body>
+</html>
