@@ -1,6 +1,7 @@
 /* General Styles */
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", Helvetica, sans-serif;
+    background-color: #c8d8e4
 }
 
 #content {
@@ -9,7 +10,7 @@ body {
 
 /* Header Section */
 header {
-    background-color: rgb(75, 140, 190);
+    background-color: #52ab98;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,15 +25,14 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: #f2f2f2;
     text-decoration: none;
     margin: 80px;
     font-size: 25px;
 }
 
 /* Hero Section */
-
-h1{
+h1 {
     font-size: 60px;
 }
 
@@ -54,14 +54,14 @@ main {
     font-size: 20px;
 }
 
-h3{
+h3 {
     font-size: 25px;
 }
 
 /* Footer Section */
 footer {
-    background-color: rgb(75, 140, 190);
-    color: white;
+    background-color: #52ab98;;
+    color: #f2f2f2;
     padding: 25px 50px;
     font-size: 25px;
     display: flex;
@@ -71,6 +71,6 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: white;
+    color: #f2f2f2;
     font-size: 25px;
 }
