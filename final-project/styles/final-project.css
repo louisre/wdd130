@@ -15,9 +15,6 @@ header {
     align-items: center;
 }
 
-#logo-link {
-}
-
 .logo {
     height: 18vh;
 }
@@ -29,8 +26,8 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    margin: 100px;
-    font-size: 21px;
+    margin: 80px;
+    font-size: 25px;
 }
 
 /* Hero Section */
