@@ -78,12 +78,18 @@ main {
 footer {
     background-color: rgb(75, 140, 190);
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-footer a{
-    color: white;
+footer a {
     text-decoration: none;
-    font-size: 18px;
+    color: white;
+    font-size: 21px;
 }
 
 #social {
