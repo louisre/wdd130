@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content {
+    text-align: center;
+}
+
+/* Header Section */
+header {
+    background-color: rgb(75, 140, 190);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo-link {
+}
+
+.logo {
+    height: 18vh;
+}
+
+nav {
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+/* Hero Section */
+
+h1{
+    font-size: 60px;
+}
+
+#hero {
+    font-size: 20px;
+    height: 75vh;
+    padding-bottom: 420px;
+}
+
+#hero-box {
+}
+
+#hero-img {
+    height: 75vh;
+    padding: 10px;
+}
+
+#hero-msg {
+}
+
+.home-title {
+}
+
+/* Main Content */
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#inshore {
+}
+
+#home {
+}
+
+#offshore {
+}
+
+/* Footer Section */
+footer {
+    background-color: rgb(75, 140, 190);
+    color: white;
+}
+
+footer a{
+    color: white;
+}
+
+#social {
+
+}
