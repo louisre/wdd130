@@ -42,18 +42,9 @@ h1{
     padding-bottom: 420px;
 }
 
-#hero-box {
-}
-
 #hero-img {
     height: 75vh;
     padding: 10px;
-}
-
-#hero-msg {
-}
-
-.home-title {
 }
 
 /* Main Content */
@@ -67,20 +58,12 @@ h3{
     font-size: 25px;
 }
 
-#inshore {
-    height: 100px;
-}
-
-#offshore {
-}
-
 /* Footer Section */
 footer {
     background-color: rgb(75, 140, 190);
     color: white;
     padding: 25px 50px;
-    margin-top: 100px;
-    font-size: 20px;
+    font-size: 25px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -89,5 +72,5 @@ footer {
 footer a {
     text-decoration: none;
     color: white;
-    font-size: 21px;
+    font-size: 25px;
 }
