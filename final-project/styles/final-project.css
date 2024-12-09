@@ -100,6 +100,7 @@ footer a {
 .text-p1 {
     grid-column: 1 / 2;
     width: 50vw;
+    text-align: center;
 }
 
 .image-p1 {
@@ -146,6 +147,7 @@ footer a {
 .text-p2 {
     grid-column: 2 / 3;
     width: 50vw;
+    text-align: center;
 }
 
 .image-p2 {
