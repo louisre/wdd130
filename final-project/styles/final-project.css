@@ -76,45 +76,41 @@ footer a {
 }
 
 /* Page 1 - Freshwater & Inshore Species */
-#main-p1{
+#hero-p1 {
+    text-align: center;
+}
+
+#main-p1 {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 30px;
 }
 
-.tarpon-content{
+.tarpon-content, .snook-content, .peacock-content {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
 }
 
-.snook-content{
-    display: grid;
-    grid-column: 1fr;
-}
-
-.peacock-content{
-    display: grid;
-    grid-column: 1fr;
-}
-
-.text-p1{
-    grid-column: 1/2;
+.text-p1 {
+    grid-column: 1 / 2;
     width: 50vw;
 }
 
-.image-p1{
-    grid-column: 2/3;
+.image-p1 {
+    grid-column: 2 / 3;
 }
 
-#tarpon{
-    grid-row: 1/2;
+#tarpon {
+    grid-row: 1 / 2;
 }
 
-#snook{
-    grid-row: 2/3;
+#snook {
+    grid-row: 2 / 3;
 }
 
-#peacock{
-    grid-row: 3/4;
+#peacock {
+    grid-row: 3 / 4;
 }
 
 /* Page 2 - Offshore, Reef & Wreck Species */
