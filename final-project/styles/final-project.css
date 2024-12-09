@@ -76,25 +76,6 @@ footer a {
 }
 
 /* Page 1 - Freshwater & Inshore Species */
-/* #main-p1 {
-    display: grid;
-    
-}
-
-#tarpon, #snook, #peacock {
-    display: grid;
-    grid-column: 1fr 1fr;
-}
-
-.text-p1{
-    width: 50vw;
-    grid-column: 1/2;
-}
-
-.image-p1{
-    grid-column: 2/3;
-} */
-
 #main-p1{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
