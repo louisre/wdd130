@@ -1,4 +1,4 @@
-/* General Styles */
+/* Home Page */
 body {
     font-family: "Roboto", Helvetica, sans-serif;
     background-color: #c8d8e4
@@ -74,3 +74,66 @@ footer a {
     color: #f2f2f2;
     font-size: 25px;
 }
+
+/* Page 1 - Freshwater & Inshore Species */
+/* #main-p1 {
+    display: grid;
+    
+}
+
+#tarpon, #snook, #peacock {
+    display: grid;
+    grid-column: 1fr 1fr;
+}
+
+.text-p1{
+    width: 50vw;
+    grid-column: 1/2;
+}
+
+.image-p1{
+    grid-column: 2/3;
+} */
+
+#main-p1{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.tarpon-content{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.snook-content{
+    display: grid;
+    grid-column: 1fr;
+}
+
+.peacock-content{
+    display: grid;
+    grid-column: 1fr;
+}
+
+.text-p1{
+    grid-column: 1/2;
+    width: 50vw;
+}
+
+.image-p1{
+    grid-column: 2/3;
+}
+
+#tarpon{
+    grid-row: 1/2;
+}
+
+#snook{
+    grid-row: 2/3;
+}
+
+#peacock{
+    grid-row: 3/4;
+}
+
+/* Page 2 - Offshore, Reef & Wreck Species */
